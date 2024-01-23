@@ -1,0 +1,57 @@
+.box{
+    width: auto;
+    height: 150px;
+    background-color: #2c2c54 !important;
+}
+
+/* General Body Styling */
+body {
+    background-color: #f4f4f4; /* Light grey background */
+    font-family: Arial, sans-serif; /* Optional: Change the font */
+}
+
+/* Centering and Styling the Form Container */
+.container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Full height */
+    padding: 20px;
+}
+
+/* Form Styling */
+#myForm {
+    background: #ffffff; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    margin-top: 20px; /* Spacing from top */
+}
+
+/* Heading Styling */
+h1 {
+    color: #333; /* Dark grey color for the heading */
+    text-align: center; /* Center-align the heading */
+    margin-bottom: 20px; /* Spacing below the heading */
+}
+
+/* Submit Button Styling */
+.btn.submit {
+    background-color: #2c2c54; /* Bootstrap primary color */
+    color: white;
+    width: 100%; /* Full-width button */
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px; /* Spacing above the button */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    #myForm {
+        margin: 10px;
+    }
+}
